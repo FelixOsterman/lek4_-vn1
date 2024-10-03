@@ -2,58 +2,51 @@
 #rubriken{
     font-size: 5em;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #63f542;
+    color: blue;
+    background-color: #f2f542;
     border: 5px solid black;
-    border-radius: 5px;
+    border-radius: 1px;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 20px;
 }
 
-.bakgrund{
-    height: 400px;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border: 2px solid black;
+body{
     background-image: url("./showcase.jpg");
+    size: cover;
+    background-position: center;
 }
 
-.red-box{
-    border: 5px #63f542 solid;
-    border-radius: 5px;
-    background-color: rgb(213, 109, 11);
-    margin: 2%;
-
-    display: flex;
-    flex-direction: row;
+.html-5-box{
+    background-color: rgb(193, 190, 188);
+    border: 1px solid black;
+    align-items: center;
+    margin: 20px;
 }
 
-.black-text{
+.css-3-box{
+    background-color: rgb(193, 190, 188);
+    border: 1px solid black;
+    align-items: center;
+    margin: 20px;
+}
+
+.javascript-box{
+    background-color: rgb(193, 190, 188);
+    border: 1px solid black;
+    align-items: center;
+    margin: 20px;
+}
+
+.sidfot{
+    align-items: center;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
 }
-
-.black-box{
-    background-color: black;
-    border: 3px solid #63f542;
-    padding: 2%;
-    margin-right: 32%;
-
-}
-
-.green-text{
-    font-family: 'Courier New', Courier, monospace;
-    color: #63f542;
-    font-weight: bold;
-}
-
-.green-box{
-    background-color: #63f542;
-    border: 3px solid black;
-    padding: 1%;
-    margin-left: 32%;
-    padding-right: 15%;
-}
-
